@@ -1,32 +1,4 @@
-/*let b=document.querySelectorAll('.butn');
-b.forEach(butn => butn.addEventListener('click', playAudio/*removeTransition*/
 
-/*document.querySelectorAll('.butn').addEventListener('click' , playAudio )
-document.q*/
-/*function playAudio(e){
-    console.log(e);
-   // for( let i=0; i>=0 && i<10 ;i++ ){
-        //console.log(i);
-        
-    if( document.querySelector('audio[data-key="0"]')){
-        document.getElementById("clap").play
-        console.log("hi");
-    }
-    else if( document.querySelector('audio[data-key="1"]')){
-        document.getElementById("snare").play
-        console.log("go");
-    }
-   // let audio= document.getElementById('aud');
-    au.play();
-    
-    //alert("hi");
-//}
-let au= document.querySelector('audio[data-key="i"]');
-au.play();
-alert("hi");
-console.log(i);
-};
-*/
 let c=document.getElementById("clap");
     c.addEventListener('click', clap);
 function clap(e){
@@ -112,29 +84,4 @@ function tink(e){
 
     
     
-    //alert("hi");
-
-
-
-
-/*let audio= document.querySelector(`audio[data-key="${e.keyCode}"]`);
-let key =   document.querySelector(`.key[data-key="${e.keyCode}"]`);
-if(!audio) return ;// stops the function from running
-audio.currentTime =0;//rewind to start
-
-audio.play();
-key.classList.add('playing');
-};
-
-//setTimeout (function(){
-
-
-//}, 1)
-function removeTransition(e){
-    if (e.propertyName!== 'transform') return;
-    console.log(e.propertyName);
-    this.classList.remove('playing');
-}
-let keys =document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-*/
+  
